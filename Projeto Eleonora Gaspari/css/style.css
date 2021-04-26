@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #D8D8DB;
+}
+
+@font-face {
+    font-family: "Chronic 1GnwL";
+    src: url("../fonts/Chronic-1GnwL.ttf") format("truetype");
+}
+
+/*===============FLEXBOX==============*/
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.content {
+    background-color: #ffff;
+    width: 70vw;
+    text-align: center;
+}
+
+.content h1 {
+    font-family:"SF Pro Text Regular", serif;
+}
+
+.content p {
+    font-family:"SF Pro Text Regular", serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.content .fp{
+    font-family:"Chronic 1GnwL", serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.content .linkformat{
+    text-decoration: none;
+}
+
+.content .format{
+    font-family:"SF Pro Text Regular", serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.content .imgformat{
+    border: 10px solid #f3f3c9d5;
+}
+
+/*===============HEADER==============*/
+#top {
+    height: 316px;
+    background: #444444;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.top-border {
+    width: 100vw;
+    height: 50px;
+    background: #333333;
+}
+
+.top-fixed {
+    position: sticky;
+}
+
+/*===============MENU==============*/
+#menu {
+    display: flex;
+    justify-content: center; 
+    font-size: 22px;
+    padding: 5px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #bbbbbb;
+    font-family: "SF Pro Text Regular", serif;
+    font-size: 22px;
+    margin-right: 20px;
+    margin-top: 0.3em;
+}
+
+#menu a:hover {
+    border-radius: 5px;
+    color: #FBFBFD;
+}
+
+#menu .main-sub-link {
+    margin-right: 5px;
+ }
+
+#menu .sub-link {
+    font-size: 16px;
+    padding-top: 6px;
+    margin-right: 5px;
+ }
+
+ #menu .sub-link-bio {
+    font-size: 16px;
+    padding-top: 4px;
+ }
+
+/*===============BORDERS==============*/
+.border {
+    border: 2px solid red;
+}
+
+.border2 {
+    border: 10px solid blue;
+}
+
+.border3 {
+    border: 2px solid green;
+}
+
+/*===============PAGE-CONTACT==============*/
+.box {
+    background-color: #ffff;
+    text-align: left;
+
+    font-family:"SF Pro Text Regular", serif;
+    font-size: 16px;
+    padding: 10px;
+
+    margin-top: 20px;
+    width: 70vw;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box p {
+    text-align: left;
+}
+
+.box span {
+    color: grey;
+}
